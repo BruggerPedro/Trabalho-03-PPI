@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav div a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.navbar a:hover {
+    color: #7e1717;
+}
+
+.content {
+    margin-top: 200px;
+    padding: 20px;
+}
+
+/*PARA O login.html*/
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 2px #b3b3b3 solid;
+}
+
+/* .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+} */
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #b3b3b3;
+    border-radius: 4px;
+    width: 75%;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #7e1717;
+}
+
+@media screen and (max-width: 535px) {
+    .login-form {
+        max-width: 100%;
+        padding: 10px;
+    }
+}  
+
+/*PARA O index.html*/
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.home-item{
+    display: flex;
+    align-items: center;
+}
+
+.home-item img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item2 {
+    display: flex;
+    align-items: center;
+}
+
+.home-item2 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item3{
+    display: flex;
+    align-items: center;
+}
+
+.home-item3 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item4{
+    display: flex;
+    align-items: center;
+}
+
+.home-item4 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item5{
+    display: flex;
+    align-items: center;
+}
+
+.home-item5img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item6{
+    display: flex;
+    align-items: center;
+}
+
+.home-item6 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item7{
+    display: flex;
+    align-items: center;
+}
+
+.home-item7 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item8{
+    display: flex;
+    align-items: center;
+}
+
+.home-item8 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item9{
+    display: flex;
+    align-items: center;
+}
+
+.home-item9 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-item10{
+    display: flex;
+    align-items: center;
+}
+
+.home-item10 img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content2 {
+    margin-top: 50px;
+    padding: 300px;
+}
+/* p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+} */
+
+
+/* Estilos para resolução maior que 1000px */
+@media screen and (min-width: 1001px) {
+    .home-item img {
+        max-width: 200px;
+    }
+}
+
+/* Estilos para resolução máxima de 1000px */
+@media screen and (max-width: 1000px) {
+    .home-item img {
+        max-width: 150px;
+    }
+}
+
+/* Estilos para resolução máxima de 535px */
+@media screen and (max-width: 535px) {
+    .home-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .home-item img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
