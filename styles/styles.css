@@ -66,15 +66,26 @@ nav div a {
 
 .login-form label {
     font-weight: bold;
-    margin-bottom: 5px;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+form div + div{
+    margin-top: 1rem;
 }
 
 .login-form input {
-    padding: 10px;
-    margin-bottom: 15px;
+
     border: 3px solid #b3b3b3;
     border-radius: 4px;
-    width: 75%;
+    width: 80%;
+    height: 1.7rem;
 }
 
 .login-form button {
@@ -108,139 +119,39 @@ nav div a {
 
 .home-item{
     display: flex;
+    width: 600px;
+    height: 300px;
     align-items: center;
+    background-color: gray;
+    justify-content: center;
+    padding: .25rem;
 }
+
+.home-item span{
+    color: #fff;
+    text-align: justify;
+}
+
+.description{
+    display: flex;
+    align-items: top;
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+}
+
 
 .home-item img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px  rgba(0, 0, 0);
+    height: 100%;
 }
 
-.home-item2 {
-    display: flex;
-    align-items: center;
-}
-
-.home-item2 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item3{
-    display: flex;
-    align-items: center;
-}
-
-.home-item3 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item4{
-    display: flex;
-    align-items: center;
-}
-
-.home-item4 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item5{
-    display: flex;
-    align-items: center;
-}
-
-.home-item5img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item6{
-    display: flex;
-    align-items: center;
-}
-
-.home-item6 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item7{
-    display: flex;
-    align-items: center;
-}
-
-.home-item7 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item8{
-    display: flex;
-    align-items: center;
-}
-
-.home-item8 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item9{
-    display: flex;
-    align-items: center;
-}
-
-.home-item9 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.home-item10{
-    display: flex;
-    align-items: center;
-}
-
-.home-item10 img{
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
 
 h3{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-
-.content2 {
-    margin-top: 50px;
-    padding: 300px;
-}
-/* p {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-} */
 
 
 /* Estilos para resolução maior que 1000px */
